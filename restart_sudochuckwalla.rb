@@ -6,4 +6,4 @@ token = my_secrets["digital_ocean"]["PAT"]
 
 client = DropletKit::Client.new(access_token: token)
 
-client.droplet_actions.reboot(droplet_id: 8171339)
+client.droplet_actions.reboot(droplet_id: 24664322)
