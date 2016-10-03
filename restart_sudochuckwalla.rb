@@ -1,7 +1,7 @@
 require 'yaml'
 require 'droplet_kit'
 
-my_secrets = YAML::load_file('../../secrets.yaml') 
+my_secrets = YAML::load_file('../secrets.yaml') 
 token = my_secrets["digital_ocean"]["PAT"]
 droplet_id = my_secrets["digital_ocean"]["sudochuckwalla_droplet_id"]
 
